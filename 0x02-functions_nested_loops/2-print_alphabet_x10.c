@@ -1,31 +1,22 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * print_alphabet_x10 - func
  *
- * Return: Always 0.
+ * Return - 0
  */
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
 void print_alphabet_x10(void)
 {
-int a = 0;
-
-while (a < 10)
+int m = 0;
+while (m < 10)
 {
-char w = 'a';
-
-while (w <= 'z')
+char a = 'a';
+while (a <= 'z')
 {
-_putchar(w);
-w++;
-}
-_putchar('\n');
+_putchar(a);
 a++;
 }
-
+_putchar('\n');
+m++;
 }
-
+}
