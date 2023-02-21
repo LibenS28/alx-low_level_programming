@@ -3,7 +3,7 @@
 /**
  * print_sign - prints sign of number
  *
- * @c: is a parameter
+ * @n: is a parameter
  */
 
 int print_sign(int n)
