@@ -1,11 +1,14 @@
 #include "main.h"
 
 /**
- * test_islower - Test the _islower function
+ * _islower - check the code for Holberton School students.
  *
- * @c: Number to pass to _islower function
+ * @c:  is a parameter
+ *
+ * Return: Always 0.
  */
-void test_islower(int c)
+
+int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
