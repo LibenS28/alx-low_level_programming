@@ -14,6 +14,6 @@ for (; a <= 7; a++)
 {
 _putchar(b[a]);
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
