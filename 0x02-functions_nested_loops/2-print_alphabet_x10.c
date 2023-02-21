@@ -14,7 +14,7 @@ while (a < 10)
 {
 char w = 'a';
 
-while (w < 'z')
+while (w <= 'z')
 {
 _putchar(w);
 w++;
