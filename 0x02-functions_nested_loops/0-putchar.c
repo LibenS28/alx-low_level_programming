@@ -7,7 +7,7 @@ int _putchar(char c);
 
 int main(void)
 {
-char b[7] = "_putchar";
+char b[] = "_putchar";
 int a = 0;
 for (; a <= 7; a++)
 
