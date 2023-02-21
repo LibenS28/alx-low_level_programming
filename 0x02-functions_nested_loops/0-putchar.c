@@ -1,16 +1,15 @@
-#include <stdio.h>
+int _putchar(char c);
 /**
  * main -Entry point
  *
  * Return: Always 0 (Success)
  */
-int _putchar(char c);
 
 int main(void)
 {
 char b[7] = "_putchar";
-
-for (int a = 0; a <= 7; a++)
+int a = 0;
+for (; a <= 7; a++)
 
 {
 _putchar (b[a]);
