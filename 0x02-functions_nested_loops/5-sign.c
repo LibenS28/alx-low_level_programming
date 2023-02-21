@@ -4,6 +4,7 @@
  * print_sign - prints sign of number
  *
  * @n: is a parameter
+ * Return: Void.
  */
 
 int print_sign(int n)
