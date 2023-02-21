@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _islower - Test the _islower function
+ * test_islower - Test the _islower function
  *
  * @c: Number to pass to _islower function
  */
-int _islower(int c)
+void test_islower(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
