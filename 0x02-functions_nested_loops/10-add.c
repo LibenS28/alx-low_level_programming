@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * add - function to add
@@ -9,7 +10,6 @@
 
 int add(int a, int b)
 {
-	int a, b;
 	int add;
 
 	add = a + b;
