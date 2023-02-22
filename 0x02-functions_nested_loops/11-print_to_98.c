@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
-/*
- * print_to_98 - prints upto 98
+/**
+ * print_to_98 - prints from n upto 98
  *
  * @n: parameter
+ * Return: Void.
  *
  */
 
